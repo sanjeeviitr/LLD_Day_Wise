@@ -12,9 +12,9 @@ public class Main_4 {
         l1.removeBook("124");
         l1.showAllBooks();
         Book a = l1.getBookById("124");
-        if(a!=null) System.out.println(a.getBookName());
+        if (a != null) System.out.println(a.getBookName());
         Book b = l1.getBookById("123");
-        if(b!=null) System.out.println(b.getBookName());
+        if (b != null) System.out.println(b.getBookName());
         l1.updateBook("123", "new light");
         System.out.println(b1.getBookName());
     }
